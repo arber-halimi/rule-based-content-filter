@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="RuleFilter.Api/RuleFilter.Api.csproj" Id="2e77958c-aef2-4a42-826c-a5cccebe540b" />
+  <Project Path="RuleFilter.Business/RuleFilter.Business.csproj" Id="a03572a3-be85-45de-87a0-f28bb8e93a8d" />
+  <Project Path="RuleFilter.DataAccess/RuleFilter.DataAccess.csproj" Id="5d7176a5-863d-412d-9e53-837b3f0a5b37" />
+  <Project Path="RuleFilter.Entities/RuleFilter.Entities.csproj" Id="902072cb-5bfb-4074-9c55-af871dfb7515" />
+</Solution>
