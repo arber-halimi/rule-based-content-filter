@@ -14,11 +14,13 @@ namespace RuleFilter.Business.Results
 
         public int? RuleId { get; set; }
 
+        public string? Keyword { get; set; }
+
         public RuleActionType? ActionType { get; set; }
 
         public string? Color { get; set; }
 
-        public string? TooltipText { get; set; }
+        public string? Tag { get; set; }
 
     }
 }

@@ -54,7 +54,7 @@ namespace RuleFilter.Business.Services
             ValidateRule(updatedRule);
 
             existingRule.Keyword = updatedRule.Keyword.Trim();
-            existingRule.MatchType = updatedRule.MatchType;
+            existingRule.RuleMatchType = updatedRule.RuleMatchType;
             existingRule.ActionType = updatedRule.ActionType;
             existingRule.Color = updatedRule.Color;
             existingRule.TooltipText = updatedRule.TooltipText;

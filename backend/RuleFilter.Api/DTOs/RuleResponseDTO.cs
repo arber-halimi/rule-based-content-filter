@@ -1,25 +1,26 @@
-﻿namespace RuleFilter.Api.DTOs
+﻿using RuleFilter.Entities.Enums;
+
+namespace RuleFilter.Api.DTOs
 {
     public class RuleResponseDTO
     {
-        public int Id { get; set; }
+        public int RuleId { get; set; }
 
         public string Keyword { get; set; } = string.Empty;
 
-        public string MatchType { get; set; } = string.Empty;
+        public RuleMatchType RuleMatchType { get; set; }
 
-        public string ActionType { get; set; } = string.Empty;
+        public RuleActionType ActionType { get; set; }
 
         public string? Color { get; set; }
 
         public string? TooltipText { get; set; }
 
-        public bool IsActive { get; set; }
+        public bool RuleIsActive { get; set; }
 
-        public int Priority { get; set; }
+        public DateTime RuleCreatedDate { get; set; }
 
-        public DateTime CreatedAt { get; set; }
-
-        public DateTime? UpdatedAt { get; set; }
+        public DateTime? RuleUpdatedDate { get; set; }
     }
-}
+   }
+

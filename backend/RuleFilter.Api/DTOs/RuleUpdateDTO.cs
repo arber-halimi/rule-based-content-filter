@@ -6,7 +6,7 @@ namespace RuleFilter.Api.DTOs
     {
         public string Keyword { get; set; } = string.Empty;
 
-        public RuleMatchType MatchType { get; set; }
+        public RuleMatchType RuleMatchType { get; set; }
 
         public RuleActionType ActionType { get; set; }
 
@@ -14,8 +14,6 @@ namespace RuleFilter.Api.DTOs
 
         public string? TooltipText { get; set; }
 
-        public bool IsActive { get; set; }
-
-        public int Priority { get; set; }
+        public bool RuleIsActive { get; set; } = true;
     }
 }
