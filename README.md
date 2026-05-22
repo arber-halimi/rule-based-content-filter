@@ -1,6 +1,6 @@
 # Rule-Based Content Filter
 
-A full-stack web application developed for the AnchorzUp internship technical assignment.
+A full-stack web application .
 
 The application allows users to define reusable text-processing rules, store them in a SQL database, and apply those rules to user-provided text. Matched text is returned with visual metadata and displayed in the frontend using highlights or tooltip/tag indicators.
 
